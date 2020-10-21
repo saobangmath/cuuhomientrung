@@ -1,0 +1,4 @@
+<form action="/import_table/" method="post" enctype="multipart/form-data">
+  {% csrf_token %} {{ form }}
+  <input type="submit" value="Submit" />
+</form>
